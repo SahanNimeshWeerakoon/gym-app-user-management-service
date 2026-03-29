@@ -1,21 +1,21 @@
 import { IsString, IsBoolean, IsArray } from 'class-validator';
 
 export class CreateUserDto {
-    @IsString()
-    name: string;
+  @IsString()
+  name: string;
 
-    @IsString()
-    gender: string;
-    
-    @IsString()
-    phoneNumber: string;
+  @IsString()
+  gender: string;
 
-    @IsString()
-    address: string;
+  @IsString()
+  phoneNumber: string;
 
-    @IsBoolean()
-    isWhatsappAvailable: boolean;
+  @IsString()
+  address: string;
 
-    @IsArray()
-    visitDays: string[];
+  @IsBoolean()
+  isWhatsappAvailable: boolean;
+
+  @IsArray()
+  visitDays: string[];
 }
